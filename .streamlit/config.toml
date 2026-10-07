@@ -1,0 +1,23 @@
+[theme]
+# मोबाइल के लिए डार्क थीम बेहतर रहती है
+base = "dark"
+primaryColor = "#FF4B4B"        # लाल रंग (शॉर्ट सेलिंग के लिए उपयुक्त)
+backgroundColor = "#0E1117"
+secondaryBackgroundColor = "#262730"
+textColor = "#FAFAFA"
+font = "sans serif"
+
+[server]
+# मोबाइल पर तेज़ लोडिंग के लिए
+enableCORS = false
+enableXsrfProtection = true
+maxUploadSize = 200
+headless = true
+
+[browser]
+gatherUsageStats = false
+
+[client]
+# मोबाइल ब्राउज़र में टूलबार छोटा दिखे
+toolbarMode = "minimal"
+showErrorDetails = true
